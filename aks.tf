@@ -72,7 +72,7 @@ resource "azurerm_role_assignment" "acr_pull" {
   scope                = azurerm_container_registry.acr.id
 }
 
-# AKS cluster with System-Assigned Identity and Secrets Store CSI Driver enabled
+# AKS cluster with User-Assigned Identity and Secrets Store CSI Driver enabled
 resource "azurerm_kubernetes_cluster" "this" {
   name                      = "${var.env}-${var.aks_name}"
   location                  = azurerm_resource_group.this.location
