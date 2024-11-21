@@ -9,7 +9,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/george-ajayiola/django-CRUD-app-k8s.git
+    repoURL: https://github.com/george-ajayiola/django-REST-api-k8s.git
     targetRevision: HEAD
     path: helm/django-api-chart
   destination:
