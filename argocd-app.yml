@@ -14,7 +14,7 @@ spec:
     path: helm/django-api-chart
   destination:
     server: https://kubernetes.default.svc
-    namespace: drinks-api
+    namespace: default
   syncPolicy:
     automated:
       prune: true
