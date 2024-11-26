@@ -1,1 +1,1 @@
-##AKS-CSI
+## aks-secretstore-csi-driver-setup
