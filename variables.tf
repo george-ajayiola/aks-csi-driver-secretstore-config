@@ -26,7 +26,7 @@ variable "resource_group_name" {
 variable "aks_name" {
   description = "The name of the AKS cluster"
   type        = string
-  default     = "api-cluster"
+  default     = "django-rest-api-cluster"
 }
 
 variable "acr_name" {

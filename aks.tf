@@ -98,11 +98,11 @@ resource "azurerm_kubernetes_cluster" "this" {
     user_assigned_identity_id = azurerm_user_assigned_identity.kubelet.id
   }
 
-  # Enable the Secrets Store CSI Driver 
- key_vault_secrets_provider {
-  secret_rotation_enabled = true
-   
- }
+    # Enable the Secrets Store CSI Driver 
+  key_vault_secrets_provider {
+    secret_rotation_enabled = true
+    
+  }
 
   network_profile {
     network_plugin = "kubenet"
