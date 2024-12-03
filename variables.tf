@@ -7,7 +7,7 @@ variable "env" {
 variable "key_vault" {
   description = "The key vault name"
   type        = string
-  default     = "awsaccesskey-vault"
+  default     = "postgres-db-credentials"
   
 }
 

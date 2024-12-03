@@ -3,7 +3,7 @@ data "azurerm_kubernetes_cluster" "this" {
   resource_group_name = var.resource_group_name
 
   # comment this  out if you  get an error of  cluster unreachable
-  depends_on = [azurerm_kubernetes_cluster.this]
+  # depends_on = [azurerm_kubernetes_cluster.this]
 }
 
 provider "helm" {
