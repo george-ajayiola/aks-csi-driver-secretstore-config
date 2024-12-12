@@ -14,7 +14,7 @@ variable "key_vault" {
 variable "region" {
   description = "The Azure region"
   type        = string
-  default     = "eastus2"
+  default     = "westus2"
 }
 
 variable "resource_group_name" {
@@ -32,7 +32,7 @@ variable "aks_name" {
 variable "acr_name" {
   description = "The name of the ACR"
   type        = string
-  default     = "myfirstlab"
+  default     = "ajayiacr"
 
   
 }
